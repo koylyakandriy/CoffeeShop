@@ -18,8 +18,6 @@ const Menu = ({ items }) => {
     setCategories(getCategories(items.edges))
   }, [items.edges])
 
-  console.log("categories:", categories)
-
   const handleItems = category => {
     let tempItems = [...allItems]
 
